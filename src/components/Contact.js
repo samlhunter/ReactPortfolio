@@ -38,17 +38,17 @@ export default function Contact() {
                 frameBorder={0}
                 marginHeight={0}
                 marginWidth={0}
-                style={{ filter: "opacity(0.7)" }}
+                style={{ filter: "opacity(0.8)" }}
                 src="https://www.google.com/maps/embed/v1/place?q=471+E+200+N+Provo,+UT&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             />
-                <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-                    <div className="lg:w-1/2 px-6">
+                <div className="bg-gray-900 relative flex flex-wrap py-4 rounded shadow-md">
+                    <div className="lg:w-1/2 px-10">
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                             ADDRESS
                         </h2>
                         <p className="mt-1">
-                            97 Warren St. <br />
-                            New York, NY 10007
+                            471 E 200 N <br />
+                            Provo, UT 84606
                         </p>
                     </div>
                     <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -56,12 +56,12 @@ export default function Contact() {
                             EMAIL
                         </h2>
                         <a className="text-indigo-400 leading-relaxed">
-                            reedbarger@email.com
+                            samhunter98@gmail.com
                         </a>
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                             PHONE
                         </h2>
-                        <p className="leading-relaxed">123-456-7890</p>
+                        <p className="leading-relaxed">949-887-9956</p>
                     </div>
                 </div>
             </div>
@@ -74,8 +74,7 @@ export default function Contact() {
                     Hire Me
                 </h2>
                 <p className="leading-relaxed mb-5">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                    suscipit officia aspernatur veritatis. Asperiores, aliquid?
+                    Want to talk? Please reach out to me!
                 </p>
                 <div className="relative mb-4">
                     <label htmlFor="name" className="leading-7 text-sm text-gray-400">
