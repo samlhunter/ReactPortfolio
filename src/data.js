@@ -2,20 +2,20 @@
 
 export const projects = [
     {
-        title: "Tweeter",
-        subtitle: "MERN Stack",
+        title: "GC Home Care",
+        subtitle: "Flutter",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-1.gif",
-        link: "https://reactbootcamp.com",
+            "Commissioned by a custom home building company, this is an application built using a flutter framework that is a customer care program",
+        image: "./images/flutter.jpg",
+        link: "https://github.com/samlhunter/GCHomeCare",
     },
     {
-        title: "GC Home Care",
-        subtitle: "React and Python",
+        title: "Tweeter",
+        subtitle: "Java and AWS",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-2.gif",
-        link: "https://reedbarger.com",
+            "My software engineering class to build a clone of twitter. Implementing model-view-presenter architecture, and using AWS services - lambda, dynamodb, SQS",
+        image: "./images/tweeter.png",
+        link: "https://github.com/samlhunter/CS340-Tweeter",
     },
     {
         title: "Travelling Salesman Problem",
@@ -27,11 +27,11 @@ export const projects = [
     },
     {
         title: "Backpropogation Model",
-        subtitle: "React Hooks",
+        subtitle: "Python Jupyter Notebooks",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
-        link: "https://pythonbootcamp.com",
+            "Using a jupyter notebook, I created my own version of a backpropogation model with tests that compare performance to the popular scikit learn, this is only configured to use one hidden layer of nodes ",
+        image: "./images/backprop.jpg",
+        link: "https://github.com/samlhunter/CS472-labs/blob/master/lab_2_backprop.ipynb",
     },
 ];
 
