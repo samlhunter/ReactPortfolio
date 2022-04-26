@@ -18,19 +18,19 @@ export const projects = [
         link: "https://github.com/samlhunter/CS340-Tweeter",
     },
     {
-        title: "Travelling Salesman Problem",
-        subtitle: "React and Firebase",
+        title: "Photo Bomb Website",
+        subtitle: "Vue and MongoDB",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-3.gif",
-        link: "https://jsbootcamp.com",
+            "Created a small blog space using vue framework for people to share photos, make an account, and comment on others pictures.",
+        image: "./images/vue.png",
+        link: "https://photobomb.shunter.org/",
     },
     {
         title: "Backpropogation Model",
         subtitle: "Python and Jupyter Notebooks",
         description:
             "Using a jupyter notebook, I created my own version of a backpropogation model with tests that compare performance to the popular scikit learn, this is only configured to use one hidden layer of nodes ",
-        image: "./images/backprop.jpg",
+        image: "./images/jupyter.png",
         link: "https://github.com/samlhunter/CS472-labs/blob/master/lab_2_backprop.ipynb",
     },
 ];
