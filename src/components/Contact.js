@@ -2,7 +2,7 @@
 
 import React from "react";
 import emailjs from 'emailjs-com';
-import { CheckCircleIcon, CheckIcon } from "@heroicons/react/solid";
+import { CheckCircleIcon } from "@heroicons/react/solid";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
@@ -57,9 +57,9 @@ export default function Contact() {
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                             EMAIL
                         </h2>
-                        <a className="text-indigo-400 leading-relaxed">
+                        <p className="text-indigo-400 leading-relaxed">
                             samhunter98@gmail.com
-                        </a>
+                        </p>
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                             PHONE
                         </h2>

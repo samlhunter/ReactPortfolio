@@ -29,6 +29,7 @@ export default function About() {
                 <img
                 className="object-cover object-center rounded"
                 alt="sam"
+                width="350"
                 src="./images/samInd.jpeg"
                 />
             </div>
