@@ -15,16 +15,18 @@ export default function Navbar() {
                 <Link className="mr-5 hover:text-white" to={'/about'}>
                     About
                 </Link>
-                <a className="mr-5 hover:text-white">Resume</a>
+                <Link to={'/resume'} className="mr-5 hover:text-white">
+                    Resume
+                </Link>
                 <Link className="mr-5 hover:text-white" to={'/projects'}>
                     Projects
                 </Link>
                 <Link to={'/skills'} className="mr-5 hover:text-white">
                     Skills
                 </Link>
-                <a href="#skills" className="mr-5 hover:text-white">
+                {/* <a href="#skills" className="mr-5 hover:text-white">
                     Personal
-                </a>
+                </a> */}
             </nav>
             <a 
                 href="https://github.com/samlhunter" 

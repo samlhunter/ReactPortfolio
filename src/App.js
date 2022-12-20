@@ -6,6 +6,7 @@ import Contact from "./pages/ContactPage";
 import Navbar from "./components/Navbar";
 import Projects from './pages/ProjectsPage';
 import Skills from "./pages/SkillsPage";
+import Resume from './pages/ResumePage';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path={'/projects'} element={<Projects />} />
         <Route path={'/skills'} element={<Skills />} />
         <Route path={'/contact'} element={<Contact />} />
+        <Route path={'/resume'} element={<Resume />} />
       </Routes>
     </BrowserRouter>
   );
