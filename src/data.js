@@ -35,5 +35,5 @@ export const projects = [
     },
 ];
 
-export const skills = ["Python", "Node.js", "Java", "ETL's", "SQL", "Git", "C++", "C", "AWS", "React", "Flutter"];
+export const skills = ["Python", "JavaScript", "TypeScript", "Java", "ETL's", "SQL", "Git", "C++", "C", "AWS", "GCP", "Linux", "React", "Flutter"];
 
