@@ -2,38 +2,37 @@
 
 export const projects = [
     {
-        title: "GC Home Care",
+        title: "GC Home Care - Client",
         subtitle: "Flutter",
         description:
-            "Commissioned by a custom home building company, this is an application built using a flutter framework that is a customer care program. The goal is to allow clients to submit repair and maintenance requests with no hassle.",
-        image: "./images/flutter.jpg",
+            "Commissioned by a custom home building company, this is a mobile application built using a Flutter framework that is a customer care program. All requests are handled by serverless backend functions via google firebase and interacts with a NoSQL database google firestore.",
+        image: "./images/flutter.png",
         link: "https://github.com/samlhunter/GCHomeCare",
+    },
+    {
+        title: "GC Home Care - Admin",
+        subtitle: "React TypeScript",
+        description:
+            "An admin site built in a React Typescript framework used for interacting with the client requests. Employees can handle requests, generate maintenance reports on properties, and onboard new homeowners. Notification systems are also established for alerting admins of emergency requests.",
+        image: "./images/react.png",
+        link: "https://github.com/GCHomeCare/gc-homecare",
     },
     {
         title: "Tweeter",
         subtitle: "Java and AWS",
         description:
-            "In my software engineering class, I built a clone of twitter. Implementing model-view-presenter architecture, and using AWS services - lambda, dynamodb, SQS, API Gateway. I used lots of software design principles in this project.",
+            "In my software engineering class, I built a clone of Twitter in Java. Implementing a model-view-presenter architecture, and using AWS services - Lambda, DynamoDB, SQS, API Gateway. I used various software design patterns in this project.",
         image: "./images/tweeter.png",
         link: "https://github.com/samlhunter/CS340-Tweeter",
     },
     {
-        title: "Photo Bomb Website",
-        subtitle: "Vue and MongoDB",
+        title: "Yatta Airflow",
+        subtitle: "Airflow ETL",
         description:
-            "Created a small blog space using vue framework for people to share photos, make an account, and comment on others pictures.",
-        image: "./images/vue.png",
-        link: "https://photobomb.shunter.org/",
-    },
-    {
-        title: "Backpropogation Model",
-        subtitle: "Python and Jupyter Notebooks",
-        description:
-            "Using a jupyter notebook, I created my own version of a backpropogation model with tests that compare performance to the popular scikit learn, this is only configured to use one hidden layer of nodes ",
-        image: "./images/jupyter.png",
-        link: "https://github.com/samlhunter/CS472-labs/blob/master/lab_2_backprop.ipynb",
+            "Separated a database into a transactional and analytical database and migrated all jobs to be managed via Apache Airflow. Database locks were eventually reduced by 99% and products dependent on transactional data became much more reliable.",
+        image: "./images/airflow.png",
     },
 ];
 
-export const skills = ["Python", "Node.js", "Java", "ETL's", "SQL", "Git", "C++", "C", "AWS", "React", "Flutter"];
+export const skills = ["Python", "JavaScript", "TypeScript", "Java", "ETL's", "SQL", "Git", "C++", "C", "AWS", "GCP", "Linux", "React", "Flutter"];
 
