@@ -4,14 +4,15 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <div className="h-screen text-gray-400 bg-gray-900">
+        <div className="h-full text-gray-400 bg-gray-900">
             <Navbar />
-            <div className="container mx-auto flex px-10 py-40 md:flex-row flex-col items-center">
-                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            <div className="container mx-auto flex flex-col h-screen grow px-10 py-10 items-center align-middle justify-center bg-gray-900">
+                <div className="flex flex-row">
+                <div className="flex flex-col grow mb-16 md:mb-0 items-start text-left">
+                    <p className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Sam. 
                         <br className="hidden lg:inline-block" />I love to develop.
-                    </h1>
+                    </p>
                     <p className="mb-8 leading-relaxed">
                         I recently graduated from BYU with a B.S degree in Computer Science with emphasis in data science and software engineering.
                     </p>
@@ -31,14 +32,15 @@ export default function About() {
                         </Link>
                     </div>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div className="pl-24 items-center align-middle">
                     <img
-                    className="object-cover object-center rounded"
-                    alt="sam"
-                    width="400"
-                    src="./images/samInd.jpeg"
+                        className="object-cover object-center rounded"
+                        alt="sam"
+                        width="500"
+                        src="./images/samInd.jpg"
                     />
                 </div>
+            </div>
             </div>
         </div>
     );

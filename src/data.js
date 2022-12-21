@@ -2,12 +2,20 @@
 
 export const projects = [
     {
-        title: "GC Home Care",
+        title: "GC Home Care - Client",
         subtitle: "Flutter",
         description:
-            "Commissioned by a custom home building company, this is an application built using a flutter framework that is a customer care program. The goal is to allow clients to submit repair and maintenance requests with no hassle.",
-        image: "./images/flutter.jpg",
+            "Commissioned by a custom home building company, this is a mobile application built using a flutter framework that is a customer care program. All requests are handled by a serverless backend functions implemented via google firebase and hosted via a NoSQL database google firestore.",
+        image: "./images/flutter.png",
         link: "https://github.com/samlhunter/GCHomeCare",
+    },
+    {
+        title: "GC Home Care - Admin",
+        subtitle: "React TypeScript",
+        description:
+            "An admin site for interacting with the client requests. Employees can handle requests, generate maintenance reports on properties, and onboard new homeowners. Notification systems are also established for alerting admins of emergency requests.",
+        image: "./images/react.png",
+        link: "https://github.com/GCHomeCare/gc-homecare",
     },
     {
         title: "Tweeter",
@@ -18,20 +26,11 @@ export const projects = [
         link: "https://github.com/samlhunter/CS340-Tweeter",
     },
     {
-        title: "Photo Bomb Website",
-        subtitle: "Vue and MongoDB",
+        title: "Yatta Airflow",
+        subtitle: "Airflow ETL",
         description:
-            "Created a small blog space using vue framework for people to share photos, make an account, and comment on others pictures.",
-        image: "./images/vue.png",
-        link: "https://photobomb.shunter.org/",
-    },
-    {
-        title: "Backpropogation Model",
-        subtitle: "Python and Jupyter Notebooks",
-        description:
-            "Using a jupyter notebook, I created my own version of a backpropogation model with tests that compare performance to the popular scikit learn, this is only configured to use one hidden layer of nodes ",
-        image: "./images/jupyter.png",
-        link: "https://github.com/samlhunter/CS472-labs/blob/master/lab_2_backprop.ipynb",
+            "Separated a database into a transactional and analytical database and migrated all jobs to be managed via Apache Airflow. Database locks were eventually reduced by 99% and products dependent on transactional data became much more reliable.",
+        image: "./images/airflow.png",
     },
 ];
 
