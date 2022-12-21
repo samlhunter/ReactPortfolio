@@ -3,7 +3,6 @@ import React from "react";
 import './App.css';
 import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
-import Navbar from "./components/Navbar";
 import Projects from './pages/ProjectsPage';
 import Skills from "./pages/SkillsPage";
 import Resume from './pages/ResumePage';
