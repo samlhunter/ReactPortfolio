@@ -7,11 +7,11 @@ export default function About() {
         <div className="flex flex-col h-screen text-gray-400 bg-gray-900 overflow-auto">
             <Navbar />
             <div className="container mx-auto flex flex-col grow px-10 py-10 items-center align-middle justify-center">
-                <div className="flex flex-row">
+                <div className="flex flex-col lg:flex-row">
                     <div className="flex flex-col grow mb-16 md:mb-0 items-start text-left">
                         <p className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-                            Hi, I'm Sam. 
-                            <br className="hidden lg:inline-block" />I love to develop.
+                            Hi, I'm Sam.
+                            <br/>I love to develop.
                         </p>
                         <p className="mb-8 leading-relaxed">
                             I recently graduated from BYU with a B.S degree in Computer Science with emphasis in data science and software engineering.
@@ -32,7 +32,7 @@ export default function About() {
                             </Link>
                         </div>
                     </div>
-                    <div className="pl-24 items-center align-middle">
+                    <div className="items-center align-middle">
                         <img
                             className="object-cover object-center rounded"
                             alt="sam"

@@ -27,34 +27,36 @@ export default function Navbar() {
                         Personal
                     </a> */}
                 </nav>
-                <a 
-                    href="https://github.com/samlhunter" 
-                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"
-                >
-                    <img
-                        className="object-cover object-center rounded"
-                        alt="Github"
-                        width="30"
-                        src="./images/github.png" 
-                    />
-                </a>
-                <a 
-                    href="https://www.linkedin.com/in/samuellhunter" 
-                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"
-                >
-                    <img
-                        className="object-cover object-center rounded"
-                        alt="Linkedin"
-                        width="30"
-                        src="./images/linkedin.webp" 
-                    />
-                </a>
-                <Link
-                    to={'/contact'}
-                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:text-white rounded text-base mt-4 md:mt-0"
-                >
-                    Contact Me
-                </Link>
+                <div className="flex items-center align-middle">
+                    <a 
+                        href="https://github.com/samlhunter" 
+                        className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"
+                    >
+                        <img
+                            className="object-cover object-center rounded"
+                            alt="Github"
+                            width="30"
+                            src="./images/github.png" 
+                        />
+                    </a>
+                    <a 
+                        href="https://www.linkedin.com/in/samuellhunter" 
+                        className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"
+                    >
+                        <img
+                            className="object-cover object-center rounded"
+                            alt="Linkedin"
+                            width="30"
+                            src="./images/linkedin.webp" 
+                        />
+                    </a>
+                    <Link
+                        to={'/contact'}
+                        className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:text-white rounded text-base mt-4 md:mt-0"
+                    >
+                        Contact Me
+                    </Link>
+                </div>
             </div>
         </header>
     );
