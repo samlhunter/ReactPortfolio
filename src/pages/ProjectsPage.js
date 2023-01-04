@@ -9,11 +9,11 @@ export default function Projects() {
             <Navbar />
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
-                    <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+                    <CodeIcon className="mx-auto inline-block w-16 md:w-12 mb-4" />
+                    <h1 className="text-4xl md:text-3xl font-medium title-font mb-4 text-white">
                         Projects I've worked on
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base md:text-lg">
                         Here are a few of my favorite projects that I have worked on. These have included a diversity of frameworks and programming languages. Some are linked ot respositories if they are public.
                     </p>
                 </div>

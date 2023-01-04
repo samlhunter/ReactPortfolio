@@ -9,8 +9,8 @@ export default function Skills() {
             <Navbar />
             <div className="flex flex-col grow container px-5 py-5 mx-auto">
                 <div className="text-center mb-5">
-                    <ChipIcon className="w-20 md:w-12 inline-block mb-4" />
-                    <h1 className="text-5xl md:text-3xl font-medium title-font text-white mb-4">
+                    <ChipIcon className="w-16 md:w-12 inline-block mb-4" />
+                    <h1 className="text-4xl md:text-3xl font-medium title-font text-white mb-4">
                         Skills &amp; Technologies
                     </h1>
                     <p className="text-base md:text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
