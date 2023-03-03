@@ -5,7 +5,7 @@ import { projects } from "../data";
 
 export default function Projects() {
     return (
-        <div className="text-gray-400 bg-gray-900">
+        <div className="flex flex-col h-screen text-gray-400 bg-gray-900 overflow-auto">
             <Navbar />
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">

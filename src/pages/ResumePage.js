@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 export default function Resume() {
     return (
-        <div className="text-gray-400 bg-gray-900">
+        <div className="flex flex-col h-screen text-gray-400 bg-gray-900 overflow-auto">
             <Navbar />
             <div className="container pt-10 pb-3 mx-auto lg:px-40 text-white items-center text-center">
                 <p className="text-3xl font-medium font-sans">Sam Hunter</p>
