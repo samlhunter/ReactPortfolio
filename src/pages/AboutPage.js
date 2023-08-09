@@ -16,23 +16,23 @@ export default function About() {
                         <p className="mb-8 leading-relaxed">
                             I recently graduated from BYU with a B.S degree in Computer Science with emphasis in data science and software engineering.
                         </p>
-                        <p className="mb-8 leading-relaxed">
+                        <p className="mb-3 leading-relaxed">
                             I have a passion for building quality software and learning new skills. As you look at my portfolio feel free to contact me with any questions.
                         </p>
-                        <div className="flex justify-center">
+                        <div className="flex flex-wrap ustify-center gap-x-2">
                             <Link
                                 to={'/contact'}
-                                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 my-1 focus:outline-none hover:bg-green-600 rounded text-lg">
                                 Reach Out To Me
                             </Link>
                             <Link
                                 to={'/projects'}
-                                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                                className="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 my-1 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                                 See My Past Work
                             </Link>
                         </div>
                     </div>
-                    <div className="sm:w-fullå m-auto rounded-md py-3 lg:py-0">
+                    <div className="sm:w-full m-auto rounded-md py-3 lg:py-0">
                         <img
                             className="rounded-md m-auto w-3/4 sm:w-1/2"
                             alt="sam"
