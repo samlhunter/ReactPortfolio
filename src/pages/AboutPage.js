@@ -8,7 +8,7 @@ export default function About() {
             <Navbar />
             <div className="container mx-auto flex flex-col grow px-10 py-10 items-center align-middle justify-center">
                 <div className="flex flex-col lg:flex-row">
-                    <div className="flex flex-col grow mb-16 md:mb-0 items-start text-left">
+                    <div className="flex flex-col grow m-auto items-start text-left">
                         <p className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                             Hi, I'm Sam.
                             <br/>I love to develop.
@@ -32,12 +32,11 @@ export default function About() {
                             </Link>
                         </div>
                     </div>
-                    <div className="items-center align-middle">
+                    <div className="sm:w-fullå m-auto rounded-md py-3 lg:py-0">
                         <img
-                            className="object-cover object-center rounded"
+                            className="rounded-md m-auto w-3/4 sm:w-1/2"
                             alt="sam"
-                            width="500"
-                            src="./images/samInd.jpg"
+                            src="./images/samProfile.jpeg"
                         />
                     </div>
                 </div>

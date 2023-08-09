@@ -20,7 +20,7 @@ export default function Resume() {
                     <p className="text-lg italic">Dec. 2022</p>
                 </div>
                 <div className="flex px-3 pb-3">
-                    <p className="text-lg italic">3.85 GPA | Dean's List | Academic Scholarship</p>
+                    <p className="text-lg italic">3.85 GPA | Academic Scholarship</p>
                 </div>
                 <p className="text-xl font-semibold">INTERNSHIP EXPERIENCE</p>
                 <hr />
@@ -35,16 +35,12 @@ export default function Resume() {
                 <div className="px-10">
                     <ul className="list-disc">
                         <li>
-                            Automated process of generating master payroll file for all Amazon offices globally using Python
+                            Automated process of generating master payroll file for all Amazon data centers globally using Python and pandas
                             saving 100 manual hours annually.
                         </li>
                         <li>
-                            Deployed scripts via Amazon cloud development kit to build native AWS resources (Lambda, Glue, S3,
+                            Developed scripts via Amazon Cloud Development Kit to deploy native AWS resources (Lambda, Glue, S3,
                             CloudWatch, SecretsManager) through TypeScript.
-                        </li>
-                        <li>
-                            Pioneered building an ETL product that was deployed via cloud development kit and wrote tutorial for
-                            other team members to follow.
                         </li>
                     </ul>
                 </div>
@@ -71,6 +67,29 @@ export default function Resume() {
                 <p className="text-xl font-semibold">WORK EXPERIENCE</p>
                 <hr />
                 <div className="pt-3 px-3 flex">
+                    <p className="flex-1 text-lg font-medium">United Insurance Group</p>
+                    <p className="text-lg">Provo, UT</p>
+                </div>
+                <div className="flex px-3">
+                    <p className="flex-1 text-lg italic">Software Engineer</p>
+                    <p className="text-lg italic">Jan. 2023 | May 2023</p>
+                </div>
+                <div className="px-10">
+                    <ul className="list-disc">
+                        <li>
+                            Developed API with ASP.NET Core framework to enable electronic signatures on all documents issued, 
+                            rather than having all documents being signed physically.
+                        </li>
+                        <li>
+                            Increased security requirements for client and internal applications by encrypting all user passwords, 
+                            as well as designing an RBAC database for employees.
+                        </li>
+                        <li>
+                            Migrated outdated mobile and web applications for insured clients to using React and React Native frameworks.
+                        </li>
+                    </ul>
+                </div>
+                <div className="pt-3 px-3 flex">
                     <p className="flex-1 text-lg font-medium">Yatta Ops</p>
                     <p className="text-lg">Orem, UT</p>
                 </div>
@@ -89,8 +108,8 @@ export default function Resume() {
                             framework served via nginx and a Django framework backend served via gunicorn.
                         </li>
                         <li>
-                            Wrote an ETL product in Python to use SSH authentication to access lead provider files and update and
-                            insert downloaded data using XML format file to insert into SQL Server instance.
+                            Wrote an ETL product in Python to extract lead provider files via SSH authentication, transform downloaded files, and
+                            insert data into SQL Server instance.
                         </li>
                     </ul>
                 </div>
@@ -100,7 +119,7 @@ export default function Resume() {
                 </div>
                 <div className="flex px-3">
                     <p className="flex-1 text-lg italic">Software Consultant</p>
-                    <p className="text-lg italic">Mar. 2022 | Present</p>
+                    <p className="text-lg italic">Mar. 2022 | Mar. 2023</p>
                 </div>
                 <div className="px-10 pb-3">
                     <ul className="list-disc">
@@ -123,10 +142,10 @@ export default function Resume() {
                 <div className="px-10 pb-3">
                     <ul className="list-disc">
                         <li>
-                            Proficient in Python, Java, SQL, JavaScript, TypeScript, Git, AWS, GCP, ETL’s
+                            Proficient in Python, Java, SQL, JavaScript, TypeScript, Git, AWS, GCP, ETL’s, Linux, C#, React, React Native, Flutter
                         </li>
                         <li>
-                            Experienced in C, C++, Linux environments
+                            Experienced in C, C++
                         </li>
                     </ul>
                 </div>
